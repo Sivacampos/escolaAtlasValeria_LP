@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+#resesTopo{
+    background-color: green;
+    width: 100%;
+    height: 80px;
+}
+
+#redesSociais{
+    display: flex;
+    align-items: center;
+}
+
+#botaoMatricula{
+    margin-top: 8px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin-left: 600%;
+    cursor: pointer;
+}
+
+.redesIcon{
+    margin-top: 15px;
+    width: 50px;
+    margin-left: 50px;
+  
+}
+
+#mensagemInicial{
+    font-size: 50px;
+    margin-left: 35%;
+    margin-bottom: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#carosselTop{   
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgb(234, 234, 238);
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.slide{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+}
+
+#diferencial{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.cardDiferencial{
+    width: 300px;
+}
+
+#maticulaJa{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.maticulaJa{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.carrossell{
+    filter: drop-shadow(0px 0px 5px #000);
+    overflow: hidden;
+    height: 307px;
+    width: 600px;
+
+}
+
+.containerr{
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+.ensino{
+    width: 600px;
+    height: 307px;
+}
+
+.carrossell{
+  margin-left: 27%;
+  margin-top: 35px;
+}
+
+#alunosAtlas{
+    background-color: rgb(180, 231, 180);
+    width: 100%;
+    margin-top: 60px;
+    
+}
+
+#tituloAluno{
+   text-align: center;
+   padding-top: 20px;
+   color:beige;
+   filter: drop-shadow(0px 0px 5px #000);
+
+}
+
+#instagran{
+    display:grid;
+    grid-auto-flow: column;
+    margin-top: 70px;
+
+}
+
+.depoimentos{
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+    filter: drop-shadow(0px 0px 5px #000);
+}
+
+#vemSer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#direitosReservados{
+    background-color: rgb(127, 126, 128);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.pisi{
+    width: 100px;
+    margin-top: 4px;
+    
+}
+
+.maticulaJa{
+    cursor: pointer;
+}
