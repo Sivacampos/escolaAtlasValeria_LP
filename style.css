@@ -74,6 +74,11 @@
     width: 400px;
 }
 
+#titleDiferencial{
+    text-align: center;
+    margin-top: 30px;
+}
+
 #diferencial{
     margin-top: 40px;
     margin-left: 100px;
@@ -175,4 +180,102 @@
 
 .maticulaJa{
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #botaoMatricula{
+       margin-left: 280px;
+    }
+
+    #resesTopo{
+        width: 760px;
+
+    }
+
+    #carosselTop{
+        display:inline-block;
+        width: 760px;
+        height: 900px;
+        align-items: center;
+
+    }
+
+    #logoAtlas{
+        display: block;
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+
+    .carrossel{
+        margin-left: 200px;
+        
+    }
+
+    #mensagemInicial{
+       text-align: center;
+       margin-right: 200px;
+       margin-left: 180px;
+    }
+
+    #diferencial{
+        display: block;
+        text-align: center;
+        margin-left: 145px;
+
+    }
+
+    .cardDiferencial{
+        width: 500px;
+    }
+
+    #divtitleDiferencial{
+        width: 769px;
+    }
+
+
+    #titleDiferencial{
+        text-align: center;
+        font-size: 40px;
+        }
+
+    #maticulaJa{
+        margin-left: 193px;
+    }
+    
+    .maticulaJa{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .carrossell{
+        margin-left: 90px;
+    }
+
+    #instagran{
+        display:inline-block;
+    
+    }
+
+    #alunosAtlas{
+        width: 760px;
+    }
+    .nosMotiva{
+        text-align: center;
+        margin-left: 100px;
+        width: 630px;
+        margin-top: 60px;
+    }
+
+    .depoimentos{
+        margin-right: 100px;
+    }
+    
+    #direitosReservados{
+        width: 760px;
+    }
+
+    #vemSer{
+        margin-left: 170px;
+    }
 }
