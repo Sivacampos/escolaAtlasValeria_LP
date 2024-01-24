@@ -192,6 +192,15 @@
     margin-bottom: 10px;
 }
 
+.whats{
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width: 600px) {
  
