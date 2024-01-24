@@ -180,6 +180,7 @@
 
 .maticulaJa{
     cursor: pointer;
+    filter: drop-shadow(0px 0px 7px green);
 }
 
 #parceiros{
@@ -200,6 +201,37 @@
     z-index: 9999;
     cursor: pointer;
 }
+
+#impacta{
+    filter: drop-shadow(0px 7px 7px black);
+}
+
+@keyframes anima {
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+button:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+a:hover{
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 
 
 @media only screen and (max-width: 600px) {
